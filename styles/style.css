@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.search_img{
+    width: 24px;
+}
+.search_btn{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.search_txt{
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 14px;
+}
+.search-box{
+    border: 2px solid #FB4B7A;
+    display: inline-flex;
+    align-items: center;
+    width: 240px;
+    justify-content: space-between;
+    padding: 4px 10px;
+    border-radius: 12px;
+}
+.header_icons{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_img{
+    width: 140px;
+}
+.icons img{
+    width: 28px;
+}
+.icons{
+    display: flex;
+    width: 240px;
+    gap: 40px;
+    justify-content: flex-end;
+}
+.nav{
+    width: 100%;
+    min-height: 60px;
+    background-color: #93D4CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+.nav a{
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+.nav a:hover{
+   color: #fff;
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mini_banners{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.banner1{
+    width: 50%;
+}
+.banner1 img{
+    width: 100%;
+    height: 546px;
+}
+.banner2{
+    width: 50%;
+    background-image: url(../assets/banner2.png);
+    height: 546px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 100px;
+}
+.banner2 p, .banner2 h4{
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+}
+.banner2 p{
+    font-size: 32px;
+}
+.banner2 h4{
+    padding-bottom: 28px;
+    font-size: 36px;
+}
+.pink{
+    color: #FB4B7A;
+}
+.about_us{
+    padding: 5rem 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.about_us p{
+    padding: 5rem 0 0 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.about_us{
+    padding: 5rem 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.about_us p{
+    padding-top: 3rem;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+h3{
+    font-size: 42px;
+    text-align: center;
+    color: #FB4B7A;
+    font-weight: 700;
+}
+.cards{
+    justify-content: center;
+    padding: 5rem 0;
+    display: flex;
+    column-gap: 60px;
+}
+.toys_cards{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0;
+    display: flex;
+    column-gap: 90px;
+    row-gap: 4rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 20px;
+    transition: .3s;
+    border-radius: 20px;
+}
+.toy_card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 40px;
+    padding: 20px;
+    transition: .3s;
+    border-radius: 20px;
+}
+.toy_card_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.card img{
+    width: 90%;
+}
+.toys h3{
+    padding-top: 4rem;
+}
+.toy_card img{
+    width: 100%;
+   
+}
+.card:hover, .toy_card:hover{
+   box-shadow: 0 0 40px #FB4B7A;
+}
+.card h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+.toy_card h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.card button, .toy_card button{
+    outline: none;
+    border: none;
+    background-color: #FB4B7A;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: .3s;
+}
+.card button:hover, .toy_card button:hover{
+    background-color: #93D4CD;
+}
+.footer{
+    padding: 6rem 0 2rem 0;
+}
+.address, .footer_nav, .contacts{
+    display: flex;
+    flex-direction: column;
+}
+.footer_blocks{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.footer_blocks a{
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.address a, .footer_nav a, .contacts a{
+    padding: 30px 0 10px 0;
+    transition: .3s;
+}
+.footer_nav a:hover{
+    color: #FB4B7A;
+}
+.icons_footer{
+    padding-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.icons_footer img{
+    width: 32px;
+}
+.show_cards{
+    display: flex;
+    justify-content: center;
+}
+.show_cards button{
+   outline: none;
+   border: none;
+   background-color: #93D4CD;
+   color: #000;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 12px 30px;
+   border-radius: 50px;
+}
